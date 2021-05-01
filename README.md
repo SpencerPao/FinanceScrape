@@ -19,3 +19,7 @@ Spencer Pao
 ```
 $ python -i extract_financial_documents.py
 ```
+Or,
+```
+$ python extract_financial_documents.py
+```
