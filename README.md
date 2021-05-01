@@ -17,5 +17,5 @@ Spencer Pao
 
 #### Run Script
 ```
-$ python3 -i extract_financial_documents.py
+$ python -i extract_financial_documents.py
 ```
