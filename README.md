@@ -1,5 +1,3 @@
-This is a demonstration on how to query for FREE financial data. Feel free to use my scripts for your use cases! :) 
-
 # Basic Financial Scraping Tool
 Note that this script can easily be improved. In the future, I plan to convert this into a library if the demand is high enough.
 
