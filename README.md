@@ -13,7 +13,7 @@ _List of tickers (company trading symbols) to extract data from. By default, I h
 Spencer Pao
 
 ## Associated with the following YouTube Video:
-- [**See YouTube Video Walkthrough!**]https://youtu.be/GGgNM7WanK8
+- [**See YouTube Video Walkthrough!**](https://youtu.be/GGgNM7WanK8)
 
 # Requirements:
 - pandas
