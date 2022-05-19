@@ -121,14 +121,14 @@ def get_key_metrics(ticker, limit, key, period):
 
 
 def get_daily_prices(ticker, timeseries, key):
-    """Parameter: timeseries in this case is the number of days."""
-    URL = 'https://financialmodelingprep.com/api/v3/historical-price-full/'
+    """Parameter: timeseries in this case is the number of days. (gets closing prices)"""
+    URL = 'https://financialmodelingprep.com/api/v3/technical_indicator/daily/'
     try:
         r = requests.get('{}{}?timeseries={}&apikey={}'.format(URL,
                                                                ticker,
                                                                timeseries,
                                                                key))
-        return pd.DataFrame.from_dict(r.json())['historical'].apply(pd.Series)
+        return pd.DataFrame.from_dict(r.json())['close'].apply(pd.Series)
     except requests.exceptions.HTTPError as e:
         print('Requesting daily Prices ERROR: ', str(e))
 
